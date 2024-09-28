@@ -40,7 +40,7 @@ const MealListCard: FC<Props> = ({ item }) => {
           <div
             className={`${
               hoveringIcon ? "hidden" : "flex"
-            } absolute bottom-2 right-2 opacity-100 transition-all duration-1000 bg-white rounded-full w-7 h-7 items-center justify-center`}
+            } absolute bottom-2 right-2 opacity-100 hidden group-hover:flex transition-all duration-1000 bg-white rounded-full w-7 h-7 items-center justify-center`}
           >
             <Edit2
               size={12}
