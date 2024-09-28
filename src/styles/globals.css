@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/euclid-circular-a');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #f3f3f3;
+}
+
+p {
+  @apply font-plus;
+}
+
+@layer {
+  .backy {
+    background-image: linear-gradient(180deg, #DC810B 0%, #EF4439 100%);
+  }
+  .backy-button {
+    background-image: linear-gradient(83.15deg, #EF4439 -4.96%, #F4995E 103.36%)
+  }
+}
+
