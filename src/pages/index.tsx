@@ -14,8 +14,10 @@ import Share from '../../public/assets/icons/share.svg'
 import { ClipboardTick, ElementPlus, MenuBoard } from "iconsax-react";
 import Card from "@/components/Card";
 import MealCard from "@/components/MealCard";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  const router = useRouter()
   const cards = [
     {
       title: "Total food items",
@@ -101,7 +103,7 @@ export default function Home() {
                   <p className="text-sm text-grey-500">Top 4 meal</p>
                 </div>
               </div>
-              <div className="flex gap-4 backy-button px-4 py-3 pr-10 rounded-xl shadow-md shadow-[#ee760840] items-center cursor-pointer">
+              <div className="flex gap-4 backy-button px-4 py-3 pr-10 rounded-xl shadow-md shadow-[#ee760840] items-center cursor-pointer" onClick={() => router.push("/food-list")}>
                 <MenuBoard size={16} color="#fff" />
                 <p className="text-white font-semibold text-base">Meal list</p>
               </div>
