@@ -103,7 +103,7 @@ export default function Home() {
                   <p className="text-sm text-grey-500">Top 4 meal</p>
                 </div>
               </div>
-              <div className="flex gap-4 backy-button px-4 py-3 pr-10 rounded-xl shadow-md shadow-[#ee760840] items-center cursor-pointer" onClick={() => router.push("/food-list")}>
+              <div className="flex gap-4 backy-button px-4 py-3 pr-10 rounded-xl shadow-md shadow-[#ee760840] items-center cursor-pointer" onClick={() => router.push("/food-items")}>
                 <MenuBoard size={16} color="#fff" />
                 <p className="text-white font-semibold text-base">Meal list</p>
               </div>
