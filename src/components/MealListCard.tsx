@@ -1,8 +1,7 @@
 import React, { FC, useState } from "react";
 import Image, { StaticImageData } from "next/image"; // Assuming you are using Next.js
-import { FaPencilAlt, FaTrashAlt, FaEye } from "react-icons/fa";
 import { Edit2, Eye } from "iconsax-react";
-import { FiTrash, FiTrash2 } from "react-icons/fi";
+import { FiTrash } from "react-icons/fi";
 
 interface Props {
   item: {

@@ -109,7 +109,7 @@ export default function Home() {
             <div className="grid grid-cols-4 gap-2 p-3">
               {meals
                 .map((item) => (
-                  <MealCard item={item}/>
+                  <MealCard item={item} key={item.title}/>
                 ))}
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React, { FC, InputHTMLAttributes } from "react";
+import React, { FC } from "react";
 import Select from "react-dropdown-select";
 
 interface Props {

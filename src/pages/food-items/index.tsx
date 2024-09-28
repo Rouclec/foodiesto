@@ -1,5 +1,4 @@
 import Sidebar from "@/components/Sidebar";
-import Drinks from "../../../public/assets/icons/drinks.svg";
 import spicyChicken from "../../../public/assets/images/spicy-chicken.jpeg";
 import snailSoup from "../../../public/assets/images/spicy-lemon.jpeg";
 import cheezePizza from "../../../public/assets/images/cheese-pizza.jpeg";
@@ -11,7 +10,6 @@ import cheeseBurger from "../../../public/assets/images/beef-burger.jpeg";
 import beefBbq from "../../../public/assets/images/beef-bbq.jpeg";
 import grilledBeef from "../../../public/assets/images/grilled-beef.jpeg";
 
-import { ClipboardTick, ElementPlus, MenuBoard } from "iconsax-react";
 import { Filter, Search } from "react-iconly";
 import { HiChevronDown } from "react-icons/hi2";
 import { LuPlus } from "react-icons/lu";
